@@ -1,0 +1,10 @@
+
+class  {
+    String model;
+    int year;
+
+    Car(Car c) {   // Copy constructor
+        model = c.model;
+        year = c.year;
+    }
+}
